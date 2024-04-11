@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  background-color: black;
+  color: white;
+  height: 15vh;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 50px;
+  align-items: center;
+}
+
+nav, ul {
+  display: flex;
+  flex-direction: row;
+}
+
+h1 {
+  padding-left: 20px;
+}
+
+nav, ul, li { padding: 10px;text-decoration: none;list-style: none;align-items: center;}
+
+
+
